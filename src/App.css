@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  padding: 20px 60px;
+}
+
+/* Link in react-router-dom is <a> when rendered */
+a {
+  text-decoration: none;
+  color: black;
+}
