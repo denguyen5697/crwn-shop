@@ -8,6 +8,7 @@ import HomePage from "./components/page/homepage/homepage.component";
 import ShopPage from "./components/shop/shop.component";
 import Header from "./components/header/header.component";
 import SignInAndSignUpPage from "./components/page/sign-in-and-sign-up/sign-in-and-sign-up.component";
+
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 
 import { connect } from "react-redux";
