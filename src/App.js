@@ -8,12 +8,16 @@ import HomePage from "./components/page/homepage/homepage.component";
 import ShopPage from "./components/shop/shop.component";
 import Header from "./components/header/header.component";
 import SignInAndSignUpPage from "./components/page/sign-in-and-sign-up/sign-in-and-sign-up.component";
+import CheckoutPage from './components/page/checkout/checkout.component';
 
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 
 import { connect } from "react-redux";
 
 import { setCurrentUser } from "./redux/user/user.action";
+import { createStructuredSelector } from "reselect";
+import { selectCurrentUser } from "./redux/user/user.selectors";
+
 class App extends React.Component {
   // constructor(props) {
   //   super(props);
@@ -66,6 +70,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/shop" component={ShopPage} />
+          <Route exact path="/checkout" component={CheckoutPage} />
           {/*  <Route exact path="/signin" component={SignInAndSignUpPage} />*/}
           <Route
             exact
@@ -85,11 +90,9 @@ class App extends React.Component {
 }
 
 //use distructuring instead of (state)
-const mapStateToProps = ({ user }) => {
-  return {
-    currentUser: user.currentUser,
-  };
-};
+const mapStateToProps = createStructuredSelector({
+  currentUser: selectCurrentUser,
+});
 
 const mapDispatchToProps = (dispatch, action) => {
   return {
