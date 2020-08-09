@@ -10,7 +10,7 @@ const CustomButton = ({
 }) => {
   return (
     <button
-      className={`${inverted ? "inverted" : ""} custom-button`}
+      className={` ${inverted ? "inverted" : ""} custom-button`}
       {...otherProps}
     >
       {children}

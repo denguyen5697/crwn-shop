@@ -24,18 +24,7 @@ const CartDropdown = ({ cartItems, history, dispatch }) => {
           : ({
               /* Can't set styles for span class empty => maybe a bug */
             },
-            (
-              <span
-                style={{
-                  fontSize: "18px",
-                  margin: "60px auto",
-                  fontWeight: "bold",
-                }}
-                className="empty-message"
-              >
-                Your cart is empty
-              </span>
-            ))}
+            (<span className="empty-message">Your cart is empty</span>))}
       </div>
       <CustomButton
         onClick={() => {
