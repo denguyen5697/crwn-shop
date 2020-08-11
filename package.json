@@ -1,6 +1,6 @@
 {
   "name": "dd-cothing",
-  "homepage": "http://denguyen5697.github.io/crwn-shop",
+  "homepage": "http://denguyen5697.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,8 @@
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
-    "reselect": "^4.0.0"
+    "reselect": "^4.0.0",
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
