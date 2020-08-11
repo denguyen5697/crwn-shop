@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/crwn-shop/static/css/main.199374ee.chunk.css",
-    "main.js": "/crwn-shop/static/js/main.852d6f49.chunk.js",
-    "main.js.map": "/crwn-shop/static/js/main.852d6f49.chunk.js.map",
-    "runtime-main.js": "/crwn-shop/static/js/runtime-main.81c256a5.js",
-    "runtime-main.js.map": "/crwn-shop/static/js/runtime-main.81c256a5.js.map",
-    "static/js/2.a2f35574.chunk.js": "/crwn-shop/static/js/2.a2f35574.chunk.js",
-    "static/js/2.a2f35574.chunk.js.map": "/crwn-shop/static/js/2.a2f35574.chunk.js.map",
-    "index.html": "/crwn-shop/index.html",
-    "precache-manifest.6e543ae583d94abdb4e7adb60617f8bb.js": "/crwn-shop/precache-manifest.6e543ae583d94abdb4e7adb60617f8bb.js",
-    "service-worker.js": "/crwn-shop/service-worker.js",
-    "static/css/main.199374ee.chunk.css.map": "/crwn-shop/static/css/main.199374ee.chunk.css.map",
-    "static/js/2.a2f35574.chunk.js.LICENSE.txt": "/crwn-shop/static/js/2.a2f35574.chunk.js.LICENSE.txt",
-    "static/media/crown.19ef7b17.svg": "/crwn-shop/static/media/crown.19ef7b17.svg",
-    "static/media/shopping-bag.30f07071.svg": "/crwn-shop/static/media/shopping-bag.30f07071.svg"
+    "main.css": "/static/css/main.5b528f1b.chunk.css",
+    "main.js": "/static/js/main.ffb3c98d.chunk.js",
+    "main.js.map": "/static/js/main.ffb3c98d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a9a15649.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a9a15649.js.map",
+    "static/js/2.59cd79b5.chunk.js": "/static/js/2.59cd79b5.chunk.js",
+    "static/js/2.59cd79b5.chunk.js.map": "/static/js/2.59cd79b5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.721248d11f53b6010a7053e3df02e21c.js": "/precache-manifest.721248d11f53b6010a7053e3df02e21c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5b528f1b.chunk.css.map": "/static/css/main.5b528f1b.chunk.css.map",
+    "static/js/2.59cd79b5.chunk.js.LICENSE.txt": "/static/js/2.59cd79b5.chunk.js.LICENSE.txt",
+    "static/media/crown.19ef7b17.svg": "/static/media/crown.19ef7b17.svg",
+    "static/media/shopping-bag.30f07071.svg": "/static/media/shopping-bag.30f07071.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.81c256a5.js",
-    "static/js/2.a2f35574.chunk.js",
-    "static/css/main.199374ee.chunk.css",
-    "static/js/main.852d6f49.chunk.js"
+    "static/js/runtime-main.a9a15649.js",
+    "static/js/2.59cd79b5.chunk.js",
+    "static/css/main.5b528f1b.chunk.css",
+    "static/js/main.ffb3c98d.chunk.js"
   ]
 }
