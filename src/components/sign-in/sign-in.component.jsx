@@ -5,7 +5,6 @@ import { connect } from "react-redux";
 import FormInput from "../form-input/form-input.component";
 import CustomButton from "../custom-button/custom-button.component";
 
-
 import {
   googleSignInStart,
   emailSignInStart
@@ -31,7 +30,6 @@ class SignIn extends React.Component {
     event.preventDefault();
     const { emailSignInStart } = this.props;
     const { email, password } = this.state;
-
 
     emailSignInStart(email, password);
   };
