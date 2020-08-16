@@ -27,7 +27,6 @@ const App = ({ checkUserSession, currentUser }) => {
         <Route exact path="/" component={HomePage} />
         <Route path="/shop" component={ShopPage} />
         <Route exact path="/checkout" component={CheckoutPage} />
-        {/*  <Route exact path="/signin" component={SignInAndSignUpPage} />*/}
         <Route
           exact
           path="/signin"
@@ -40,7 +39,6 @@ const App = ({ checkUserSession, currentUser }) => {
   );
 };
 
-//use distructuring instead of (state)
 const mapStateToProps = createStructuredSelector({
   currentUser: selectCurrentUser
 });
